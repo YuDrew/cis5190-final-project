@@ -1,0 +1,2 @@
+yaml_file,MAP,NDCG,Precision,Recall,Train Time,embed_size,n_layers,batch_size,decay,epochs,learning_rate,eval_epoch,top_k
+64_5_2048_0_01_500_0_01_-1_10,0.03427525524128011,0.07146391819433993,0.03818681318681319,0.0937714054768336,98.83039379099864,64,5,2048,0.01,500,0.01,-1,10
