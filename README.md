@@ -14,10 +14,15 @@
 ### Setting up your python environment
 If necessary, spin up a new virtual env and seed it with our `requirements.txt`.
 
-### LightGCN
+### Baseline
+You should be able to run the baseline notebook directly, given that your virtual environment has all necessary packages. 
+
+### SAR
+You should be able to run the SAR notebook directly, given that your virtual environment has all necessary packages. 
+
+### ALS
+To run ALS properly, you should set it up in Sagemaker or another Pyspark compatible environment. 
 
 ### LightGCN
-The LightGCN code should be runnable from the get go, though you may need to install certain packages in your Python virtual environment. 
-
-Once installed 
-LightGCN yaml files and builds are in their own folder, as well as the annotated notebook. For SAR and ALS, feel free to just look at the relevant notebooks for the output. To replicate this on your machine, feel free to copy the notebooks, making sure to change the file path for the data to wherever you have it stored.
+You should be able to run the SAR notebook directly, given that your virtual environment has all necessary packages. 
+Note that the notebook will create three folders: `yamls` to store .yaml files of hyperparameter combinations, `embeddings` to store embeddings from models run, and `models`, which stores models.
